@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+.game-container {
+    width: 500px;
+    height: 730px;
+    position: absolute;
+    left: 80px;
+}
+.sky {
+    background-image: url('./images/background.png');
+    height: 580px;
+    width: 500px;
+    position: absolute;
+}
+.border-left {
+    width: 80px;
+    height: 790px;
+    position: absolute;
+    background-color: white;
+    z-index: +2;
+}
+.ground {
+    background-image: url('./images/bottom.png');
+    background-size: cover;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 580px;
+    z-index: +1;
+    margin: 0;
+}
+.bird {
+    background-image: url(./images/jp2.png);
+    background-size: cover;
+    position: absolute;
+    width: 60px;
+    height: 70px;
+}
+.obstacle {
+    background-image: url('./images/rura.png');
+    height: 300px;
+    width: 60px;
+    position: absolute;
+}
+.topObstacle {
+    background-image: url('./images/rura.png');
+    transform: rotate(180deg);
+    height: 300px;
+    width: 60px;
+    position: absolute;
+}
+.border-right {
+    width: 80px;
+    height: 790px;
+    position: absolute;
+    background-color: white;
+    z-index: +2;
+    left: 580px;
+}
+.border-top{
+    width: 660px;
+    height: 50px;
+    position: absolute;
+    background-color: white;
+    z-index: +2;
+    top: -50px;
+}
